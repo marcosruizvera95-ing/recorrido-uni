@@ -1,0 +1,657 @@
+/* ---------- WALKTHROUGH | Classic brick style (all tours), scoped to .wt-classic ---------- */
+
+body:has(.wt-classic) {
+  background: #20120e;
+}
+
+.wt-classic .walkthrough-page {
+  --brick-dark: #5c2620;
+  --brick: #7a3327;
+  --terracotta: #a85a3d;
+  --terracotta-light: #c78a5f;
+  --clay: #8f4530;
+  --cream: #fbf4ec;
+  --ink: #2a1a14;
+  --gold: #e0b25a;
+
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  box-shadow: 0 0 60px rgba(0, 0, 0, .6);
+  overflow: hidden;
+  color: var(--ink);
+  font-family: var(--font-montserrat, 'Montserrat'), ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+.wt-classic .walkthrough-page .script {
+  font-family: 'Dancing Script', var(--font-dancing-script, 'Segoe Script'), cursive;
+}
+
+/* ---------- HEADER ---------- */
+.wt-classic .walkthrough-page > header {
+  background: linear-gradient(105deg, var(--brick-dark) 0%, var(--brick) 30%, var(--terracotta) 65%, var(--terracotta-light) 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px clamp(14px, 2.6vw, 34px);
+  gap: 14px;
+  position: relative;
+  z-index: 30;
+}
+
+.wt-classic .walkthrough-page .brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.wt-classic .walkthrough-page .crest {
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+.wt-classic .walkthrough-page .crest svg {
+  width: 28px;
+  height: 28px;
+}
+
+.wt-classic .walkthrough-page .brand-text {
+  min-width: 0;
+}
+
+.wt-classic .walkthrough-page .brand-text h1 {
+  margin: 0;
+  font-size: clamp(13px, 1.55vw, 20px);
+  font-weight: 800;
+  letter-spacing: .3px;
+  line-height: 1.15;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+
+.wt-classic .walkthrough-page .brand-text p {
+  margin: 2px 0 0;
+  font-size: clamp(10.5px, 1.05vw, 13.5px);
+  font-weight: 500;
+  color: #fff;
+  opacity: .92;
+  white-space: nowrap;
+}
+
+.wt-classic .walkthrough-page nav.mainnav {
+  display: flex;
+  align-items: center;
+  gap: clamp(10px, 1.6vw, 26px);
+  flex: 0 0 auto;
+  padding: 0 clamp(8px, 1.6vw, 22px);
+  position: relative;
+}
+
+.wt-classic .walkthrough-page nav.mainnav::before,
+.wt-classic .walkthrough-page nav.mainnav::after {
+  content: "";
+  width: 1px;
+  height: 26px;
+  background: rgba(255, 255, 255, .55);
+}
+
+.wt-classic .walkthrough-page .navlink {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: clamp(10.5px, 1.05vw, 13.5px);
+  font-weight: 600;
+  white-space: nowrap;
+  letter-spacing: .2px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.wt-classic .walkthrough-page .navlink:hover {
+  opacity: .85;
+}
+
+.wt-classic .walkthrough-page .navlink img {
+  width: 17px;
+  height: 17px;
+  flex: 0 0 auto;
+}
+
+.wt-classic .walkthrough-page .navlink + .navlink {
+  padding-left: clamp(10px, 1.6vw, 26px);
+  border-left: 1px solid rgba(255, 255, 255, .4);
+}
+
+.wt-classic .walkthrough-page .tagline {
+  flex: 0 0 auto;
+  text-align: left;
+  font-size: clamp(11.5px, 1.15vw, 17px);
+  line-height: 1.05;
+  max-width: 290px;
+  color: #fff;
+  display: none;
+}
+
+@media (min-width: 760px) {
+  .wt-classic .walkthrough-page .tagline {
+    display: block;
+  }
+}
+
+/* ---------- HERO (visor 360°) ---------- */
+.wt-classic .link-hotspot,
+.wt-classic .info-hotspot {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .85);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform .15s ease, background .15s ease;
+}
+
+.wt-classic .link-hotspot:hover,
+.wt-classic .info-hotspot:hover {
+  background: #fff;
+  transform: scale(1.15);
+}
+
+.wt-classic .link-hotspot svg,
+.wt-classic .info-hotspot svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* ---------- INFO BOX (recuadro flotante del hotspot) ---------- */
+.wt-classic .info-box {
+  position: absolute;
+  bottom: calc(100% + 12px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 240px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .45);
+  padding: 14px 16px;
+  z-index: 20;
+  text-align: left;
+}
+
+.wt-classic .info-box::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 8px solid transparent;
+  border-top-color: #fff;
+}
+
+.wt-classic .info-box h3 {
+  margin: 0 0 .4em;
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--ink);
+}
+
+.wt-classic .info-box p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #3a2a22;
+}
+
+.wt-classic .info-box-addon {
+  margin-top: .7em;
+}
+
+.wt-classic .info-box-addon a {
+  color: var(--terracotta);
+  font-weight: 700;
+}
+
+/* ---------- HERO (visor 360°) ---------- */
+.wt-classic .walkthrough-stage {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.wt-classic .walkthrough-hero {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 60vh;
+}
+
+/* ---------- PANEL INDICE ---------- */
+.wt-classic .walkthrough-hero .panel {
+  position: absolute;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .35);
+}
+
+/* Botones circulares para abrir/cerrar los paneles */
+.wt-classic .walkthrough-hero .indice-toggle,
+.wt-classic .walkthrough-hero .fac-toggle {
+  position: absolute;
+  top: 5%;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .9);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 12;
+}
+
+.wt-classic .walkthrough-hero .indice-toggle {
+  left: 1.2%;
+}
+
+.wt-classic .walkthrough-hero .fac-toggle {
+  right: 1.2%;
+}
+
+/* Menu toggles use their own icons (list / building, X when open) so they don't look like the scene arrows */
+.wt-classic .walkthrough-hero .indice-toggle svg,
+.wt-classic .walkthrough-hero .fac-toggle svg {
+  width: 20px;
+  height: 20px;
+}
+
+.wt-classic .walkthrough-hero .indice-panel {
+  top: calc(5% + 52px);
+  left: 1.2%;
+  width: 26%;
+  min-width: 220px;
+  height: auto;
+  max-height: 72%;
+  padding: 3% 4% 3% 1%;
+  display: none;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.wt-classic .walkthrough-hero .indice-panel.open {
+  display: flex;
+}
+
+/* ---------- PANEL FACULTADES ---------- */
+.wt-classic .walkthrough-hero .fac-panel {
+  top: calc(5% + 52px);
+  right: 1.2%;
+  width: 362px;
+  max-width: calc(100% - 2.4%);
+  height: auto;
+  padding: 16px 20px 12px;
+  display: none;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.wt-classic .walkthrough-hero .fac-panel.open {
+  display: flex;
+}
+
+.wt-classic .walkthrough-hero .fac-panel h2 {
+  margin: 0 0 .7em;
+  font-size: clamp(13px, 1.4vw, 18px);
+  font-weight: 800;
+  letter-spacing: .3px;
+  color: var(--ink);
+  flex: 0 0 auto;
+}
+
+.wt-classic .walkthrough-hero .fac-row {
+  display: flex;
+  gap: 14px;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  cursor: grab;
+  padding-bottom: 2px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.wt-classic .walkthrough-hero .fac-row::-webkit-scrollbar {
+  display: none;
+}
+
+.wt-classic .walkthrough-hero .fac-row.dragging {
+  cursor: grabbing;
+}
+
+.wt-classic .walkthrough-hero .fac-item {
+  flex: 0 0 auto;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .4em;
+}
+
+.wt-classic .walkthrough-hero .fac-icon {
+  width: clamp(38px, 4.2vw, 52px);
+  height: clamp(38px, 4.2vw, 52px);
+  border-radius: 50%;
+  background: #f4ede3;
+  border: 2px solid #d8c3a5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.wt-classic .walkthrough-hero .fac-icon img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.wt-classic .walkthrough-hero .fac-item span {
+  font-size: clamp(8px, .8vw, 11px);
+  font-weight: 600;
+  text-align: center;
+  color: #3a2a22;
+  line-height: 1.15;
+  user-select: none;
+}
+
+/* Slider horizontal del panel de facultades */
+.wt-classic .walkthrough-hero .fac-slider {
+  position: relative;
+  flex: 0 0 20px;
+  height: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  touch-action: none;
+}
+
+.wt-classic .walkthrough-hero .fac-slider .track {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 2px;
+  transform: translateY(-50%);
+  background: #1a1a1a;
+  border-radius: 2px;
+  opacity: .85;
+}
+
+.wt-classic .walkthrough-hero .fac-thumb {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+}
+
+.wt-classic .walkthrough-hero .fac-thumb.dragging {
+  cursor: grabbing;
+}
+
+.wt-classic .walkthrough-hero .fac-thumb img {
+  width: 18px;
+  height: 18px;
+  transform: rotate(90deg);
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+}
+
+.wt-classic .walkthrough-hero .fac-thumb:focus-visible {
+  outline: 2px solid var(--terracotta);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.wt-classic .walkthrough-hero .indice-panel h2 {
+  margin: 0 0 .6em;
+  padding-left: .6em;
+  font-size: clamp(14px, 1.7vw, 22px);
+  font-weight: 800;
+  letter-spacing: .3px;
+  color: var(--ink);
+  flex: 0 0 auto;
+}
+
+.wt-classic .walkthrough-hero .indice-body {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.wt-classic .walkthrough-hero .indice-list-wrap {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.wt-classic .walkthrough-hero .indice-panel ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: idx;
+  display: flex;
+  flex-direction: column;
+  gap: .55em;
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.wt-classic .walkthrough-hero .indice-panel ol::-webkit-scrollbar {
+  display: none;
+}
+
+.wt-classic .walkthrough-hero .indice-panel li {
+  counter-increment: idx;
+  font-size: clamp(11px, 1.35vw, 17px);
+  font-weight: 500;
+  color: #3a2a22;
+  display: flex;
+  gap: .4em;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.wt-classic .walkthrough-hero .indice-panel li:hover {
+  color: var(--terracotta);
+}
+
+.wt-classic .walkthrough-hero .indice-panel li.active {
+  color: var(--terracotta);
+  font-weight: 800;
+}
+
+.wt-classic .walkthrough-hero .indice-panel li::before {
+  content: counter(idx)".";
+  font-weight: 600;
+  color: #3a2a22;
+}
+
+.wt-classic .walkthrough-hero .indice-slider {
+  position: relative;
+  flex: 0 0 20px;
+  width: 20px;
+  cursor: pointer;
+  touch-action: none;
+  order: -1;
+}
+
+.wt-classic .walkthrough-hero .indice-slider .track {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  transform: translateX(-50%);
+  background: #1a1a1a;
+  border-radius: 2px;
+  opacity: .85;
+}
+
+.wt-classic .walkthrough-hero .indice-thumb {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0);
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+}
+
+.wt-classic .walkthrough-hero .indice-thumb.dragging {
+  cursor: grabbing;
+}
+
+.wt-classic .walkthrough-hero .indice-thumb img {
+  width: 18px;
+  height: 18px;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+}
+
+.wt-classic .walkthrough-hero .indice-thumb:focus-visible {
+  outline: 2px solid var(--terracotta);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ---------- FOOTER ---------- */
+.wt-classic .walkthrough-page > footer {
+  background: linear-gradient(105deg, var(--terracotta-light) 0%, var(--terracotta) 35%, var(--brick) 70%, var(--brick-dark) 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 12px clamp(14px, 2.6vw, 34px);
+  z-index: 30;
+}
+
+.wt-classic .walkthrough-page .foot-left {
+  display: flex;
+  align-items: center;
+  gap: clamp(10px, 2vw, 28px);
+  flex-wrap: wrap;
+}
+
+.wt-classic .walkthrough-page .foot-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: clamp(10.5px, 1.05vw, 13.5px);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.wt-classic .walkthrough-page .foot-item img {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 auto;
+}
+
+.wt-classic .walkthrough-page .foot-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wt-classic .walkthrough-page .foot-social a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .16);
+  border: 1.5px solid rgba(255, 255, 255, .7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: background .15s ease;
+}
+
+.wt-classic .walkthrough-page .foot-social a:hover {
+  background: rgba(255, 255, 255, .32);
+}
+
+.wt-classic .walkthrough-page .foot-social img {
+  width: 15px;
+  height: 15px;
+}
+
+.wt-classic .walkthrough-page .foot-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: clamp(13px, 1.6vw, 20px);
+  white-space: nowrap;
+}
+
+.wt-classic .walkthrough-page .foot-right .line {
+  width: clamp(30px, 5vw, 80px);
+  height: 1.5px;
+  background: rgba(255, 255, 255, .85);
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 640px) {
+  .wt-classic .walkthrough-page .brand-text p {
+    display: none;
+  }
+
+  .wt-classic .walkthrough-page nav.mainnav .navlink span {
+    display: none;
+  }
+
+  .wt-classic .walkthrough-hero .indice-panel {
+    width: 60%;
+  }
+
+  .wt-classic .walkthrough-hero .fac-row {
+    gap: 12px;
+  }
+
+  .wt-classic .walkthrough-hero .fac-item {
+    width: 66px;
+  }
+
+  .wt-classic .walkthrough-page .foot-right .script-text {
+    display: none;
+  }
+}

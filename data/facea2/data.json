@@ -1,0 +1,407 @@
+{
+  "scenes": [
+    {
+      "id": "0-face-nuevo-frente",
+      "name": "Edificio nuevo · Frente",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 0.681975958151245,
+        "pitch": -0.23395303328593542,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.5559857793557654,
+          "pitch": 0.026397217056928213,
+          "rotation": 0,
+          "target": "1-planta-baja"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-planta-baja",
+      "name": "Planta baja · Galería",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 1.8719295808077892,
+        "pitch": 0.11993952674555075,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.1902099331129499,
+          "pitch": 0.21878834622153853,
+          "rotation": 0,
+          "target": "0-face-nuevo-frente"
+        },
+        {
+          "yaw": 1.990170374042851,
+          "pitch": 0.30274364542318466,
+          "rotation": 0,
+          "target": "2-planta-baja-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-planta-baja-2",
+      "name": "Planta baja · Pasillo",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -1.147223185489569,
+        "pitch": 0.24907158088954162,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.3846444266343614,
+          "pitch": 0.1735060244761648,
+          "rotation": 0,
+          "target": "1-planta-baja"
+        },
+        {
+          "yaw": 2.5763757795220457,
+          "pitch": 0.16119902502994776,
+          "rotation": 0,
+          "target": "3-primer-piso-3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-primer-piso-3",
+      "name": "Primer piso · Pasillo",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -2.5846350776528837,
+        "pitch": 0.09796277781834739,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.6973215431343132,
+          "pitch": 0.33727209606119857,
+          "rotation": 9.42477796076938,
+          "target": "2-planta-baja-2"
+        },
+        {
+          "yaw": -2.3754077128708992,
+          "pitch": 0.45024979397556386,
+          "rotation": 0,
+          "target": "4-primer-piso-2"
+        },
+        {
+          "yaw": 0.5362445735664814,
+          "pitch": -0.0241059285979226,
+          "rotation": 0,
+          "target": "6-segundo-piso"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-primer-piso-2",
+      "name": "Primer piso · Galería",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 1.590744714657685,
+        "pitch": 0.13907457184622452,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.4506535596183507,
+          "pitch": 0.23128427128545503,
+          "rotation": 0,
+          "target": "3-primer-piso-3"
+        },
+        {
+          "yaw": 1.489709247412252,
+          "pitch": 0.34024336954466605,
+          "rotation": 0,
+          "target": "5-primer-piso"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-primer-piso",
+      "name": "Primer piso · Acceso a escalera",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 0.07472094947356211,
+        "pitch": -0.0475573933958966,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.7909150173920096,
+          "pitch": 0.25573979094297883,
+          "rotation": 0,
+          "target": "4-primer-piso-2"
+        },
+        {
+          "yaw": 1.018412827538576,
+          "pitch": 0.13786413787220653,
+          "rotation": 0,
+          "target": "8-segundo-piso-3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-segundo-piso",
+      "name": "Segundo piso · Galería",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -2.2703369361864887,
+        "pitch": 0.11085290045826568,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.5032173619729763,
+          "pitch": 0.2450835560140181,
+          "rotation": 3.141592653589793,
+          "target": "3-primer-piso-3"
+        },
+        {
+          "yaw": -2.0159512141020297,
+          "pitch": 0.35451412804767557,
+          "rotation": 0,
+          "target": "7-segundo-piso-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "7-segundo-piso-2",
+      "name": "Segundo piso · Galería exterior",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 1.3710249333660052,
+        "pitch": 0.052520541649744956,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.291226102269734,
+          "pitch": 0.2165578566256805,
+          "rotation": 0,
+          "target": "8-segundo-piso-3"
+        },
+        {
+          "yaw": -1.803272068205997,
+          "pitch": 0.32984802334750896,
+          "rotation": 0,
+          "target": "6-segundo-piso"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "8-segundo-piso-3",
+      "name": "Segundo piso · Balcón",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -0.6607317882549957,
+        "pitch": 0.047557393395893044,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.336884367486011,
+          "pitch": 0.31976205135458713,
+          "rotation": 0,
+          "target": "7-segundo-piso-2"
+        },
+        {
+          "yaw": 0.1425851975900656,
+          "pitch": 0.1992547646445324,
+          "rotation": 3.141592653589793,
+          "target": "5-primer-piso"
+        }
+      ],
+      "infoHotspots": []
+    }
+  ],
+    "name": "Project Title",
+      "settings": {
+    "mouseViewMode": "drag",
+      "autorotateEnabled": true,
+        "fullscreenButton": false,
+          "viewControlButtons": false
+  }
+}

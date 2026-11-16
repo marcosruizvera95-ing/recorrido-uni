@@ -1,0 +1,87 @@
+{
+  "scenes": [
+    {
+      "id": "0-entrada",
+      "name": "Exterior · Entrada",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -0.32032706299115254,
+        "pitch": 0.16498918708207633,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.01728255113270194,
+          "pitch": 0.23106043347797467,
+          "rotation": 0,
+          "target": "1-oficinas"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-oficinas",
+      "name": "Interior · Oficinas",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -0.9132786204381631,
+        "pitch": 0.17917107447359726,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.83749923337969,
+          "pitch": 0.16720664156233056,
+          "rotation": 0,
+          "target": "0-entrada"
+        }
+      ],
+      "infoHotspots": []
+    }
+  ],
+  "name": "Project Title",
+  "settings": {
+    "mouseViewMode": "drag",
+    "autorotateEnabled": true,
+    "fullscreenButton": false,
+    "viewControlButtons": false
+  }
+}

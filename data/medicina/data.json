@@ -1,0 +1,798 @@
+{
+  "scenes": [
+    {
+      "id": "0-planta-baja-1",
+      "name": "Planta baja · Recepción",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 1.495754280968268,
+        "pitch": -0.03966077233326892,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.9279151283002474,
+          "pitch": 0.09057205480234387,
+          "rotation": 1.5707963267948966,
+          "target": "1-planta-baja-2"
+        },
+        {
+          "yaw": 0.9926124750096044,
+          "pitch": 0.13044121703099165,
+          "rotation": 4.71238898038469,
+          "target": "5-planta-baja-4"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-planta-baja-2",
+      "name": "Planta baja · Sala de espera",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -0.7415948823243248,
+        "pitch": 0.05427070971057901,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.7803228422849386,
+          "pitch": 0.24043302570654035,
+          "rotation": 0,
+          "target": "2-planta-baja-3"
+        },
+        {
+          "yaw": 2.3387485229476503,
+          "pitch": 0.3261154809120299,
+          "rotation": 0,
+          "target": "0-planta-baja-1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-planta-baja-3",
+      "name": "Planta baja · Pasillo central",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 2.1352679195069815,
+        "pitch": 0.0721544262681757,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.8612529698538918,
+          "pitch": 0.23269164018073774,
+          "rotation": 0,
+          "target": "1-planta-baja-2"
+        },
+        {
+          "yaw": 1.559088238202639,
+          "pitch": 0.04913501986931834,
+          "rotation": 4.71238898038469,
+          "target": "4-laboratorio"
+        },
+        {
+          "yaw": 3.0539185298740854,
+          "pitch": 0.20424565468814038,
+          "rotation": 0.7853981633974483,
+          "target": "3-morgue"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-morgue",
+      "name": "Planta baja · Morgue",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 0.9951312404552333,
+        "pitch": -0.04004833128078644,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.399254304137237,
+          "pitch": 0.24813332250115216,
+          "rotation": 6.283185307179586,
+          "target": "2-planta-baja-3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-laboratorio",
+      "name": "Planta baja · Laboratorio",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -0.4353281566743519,
+        "pitch": 0.08466785619968675,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.4360907537282941,
+          "pitch": 0.09467070559246338,
+          "rotation": 0,
+          "target": "2-planta-baja-3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-planta-baja-4",
+      "name": "Planta baja · Pasillo",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 2.883482702178176,
+        "pitch": 0.02735444056230385,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.6608189750301694,
+          "pitch": 0.3968568791824545,
+          "rotation": 0,
+          "target": "6-planta-baja-5"
+        },
+        {
+          "yaw": -0.2938369805704397,
+          "pitch": 0.3403133273625638,
+          "rotation": 0,
+          "target": "1-planta-baja-2"
+        },
+        {
+          "yaw": -1.8672928309045815,
+          "pitch": 0.2248979856822224,
+          "rotation": 0,
+          "target": "11-estacionamiento"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-planta-baja-5",
+      "name": "Planta baja · Hall",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 1.8936039189833203,
+        "pitch": -0.003623897513762131,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.4808136485346992,
+          "pitch": 0.2796776815148938,
+          "rotation": 0,
+          "target": "5-planta-baja-4"
+        },
+        {
+          "yaw": 2.0384292968742574,
+          "pitch": 0.15870310307709623,
+          "rotation": 0,
+          "target": "7-primer-piso-1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "7-primer-piso-1",
+      "name": "Primer piso · Pasarela central",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -1.693292284410422,
+        "pitch": 0.07598893330893475,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.065058215600251,
+          "pitch": 0.14915229294958365,
+          "rotation": 3.141592653589793,
+          "target": "6-planta-baja-5"
+        },
+        {
+          "yaw": -1.6676366637079951,
+          "pitch": 0.6461850739587192,
+          "rotation": 0,
+          "target": "8-primer-piso-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "8-primer-piso-2",
+      "name": "Primer piso · Pasillo",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 1.0139749759056436,
+        "pitch": 0.00315579491167739,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.893679444199158,
+          "pitch": 0.27140184132455225,
+          "rotation": 0,
+          "target": "9-primer-piso-3"
+        },
+        {
+          "yaw": -2.2238572839504513,
+          "pitch": 0.2168331190563677,
+          "rotation": 0,
+          "target": "7-primer-piso-1"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.8937239875694978,
+          "pitch": -0.2673608908320624,
+          "title": "Decanato",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "9-primer-piso-3",
+      "name": "Primer piso · Atrio",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 2.7171171648469112,
+        "pitch": -0.03069545726896905,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.7053741789152195,
+          "pitch": 0.09529066894588922,
+          "rotation": 0,
+          "target": "10-primer-piso-4"
+        },
+        {
+          "yaw": -0.4802470188810979,
+          "pitch": 0.261694575586926,
+          "rotation": 0,
+          "target": "8-primer-piso-2"
+        },
+        {
+          "yaw": 1.1254339683970933,
+          "pitch": 0.11221395925364241,
+          "rotation": 15.707963267948973,
+          "target": "1-planta-baja-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "10-primer-piso-4",
+      "name": "Primer piso · Galería del atrio",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -0.5288262911830124,
+        "pitch": 0.0291328278434122,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.549685938461705,
+          "pitch": 0.39476610102346577,
+          "rotation": 0,
+          "target": "9-primer-piso-3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "11-estacionamiento",
+      "name": "Exterior · Estacionamiento",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 0.38282755578526917,
+        "pitch": 0.09261176608674049,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.0020666149160764,
+          "pitch": 0.2591720350500317,
+          "rotation": 0,
+          "target": "12-biotecnologia-afuera"
+        },
+        {
+          "yaw": -2.4435635335368744,
+          "pitch": 0.06151792481194818,
+          "rotation": 4.71238898038469,
+          "target": "5-planta-baja-4"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "12-biotecnologia-afuera",
+      "name": "Biotecnología · Entrada",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 0.3900276593742298,
+        "pitch": -0.030161839639044175,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.25204205518290834,
+          "pitch": 0.10699986875698109,
+          "rotation": 0,
+          "target": "13-biotecnologia-1"
+        },
+        {
+          "yaw": 1.3119097327624445,
+          "pitch": 0.16366082133310655,
+          "rotation": 4.71238898038469,
+          "target": "11-estacionamiento"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "13-biotecnologia-1",
+      "name": "Biotecnología · Pasillo",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -1.5019366373382361,
+        "pitch": -0.0008939359660882218,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.4891952963450876,
+          "pitch": 0.5012249095120502,
+          "rotation": 0,
+          "target": "15-biotecnologia-2"
+        },
+        {
+          "yaw": 3.049949453857856,
+          "pitch": 0.7626199872804946,
+          "rotation": 0,
+          "target": "14-limpieza"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "14-limpieza",
+      "name": "Biotecnología · Área de lavado",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.17119023866043293,
+          "pitch": 0.2612987605192245,
+          "rotation": 0,
+          "target": "13-biotecnologia-1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "15-biotecnologia-2",
+      "name": "Biotecnología · Pasillo 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -1.0190260088823244,
+        "pitch": 0.007692402926760877,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.9003488050308803,
+          "pitch": 0.5185562868249605,
+          "rotation": 0,
+          "target": "17-biotecnologia-3"
+        },
+        {
+          "yaw": 2.2162763657624343,
+          "pitch": 0.4777720098440561,
+          "rotation": 0,
+          "target": "13-biotecnologia-1"
+        },
+        {
+          "yaw": 0.7674987236132313,
+          "pitch": 0.49229473522298406,
+          "rotation": 0,
+          "target": "16-ratoncitos"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "16-ratoncitos",
+      "name": "Biotecnología · Bioterio",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -1.6190027046705424,
+        "pitch": 0.36043498152676534,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.6134214641004228,
+          "pitch": 0.57484890735374,
+          "rotation": 0,
+          "target": "15-biotecnologia-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "17-biotecnologia-3",
+      "name": "Biotecnología · Pasillo 3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -2.3983463286799864,
+        "pitch": -0.02034736340121235,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.1171088595462493,
+          "pitch": 0.5366048538129,
+          "rotation": 0,
+          "target": "15-biotecnologia-2"
+        }
+      ],
+      "infoHotspots": []
+    }
+  ],
+  "name": "Project Title",
+  "settings": {
+    "mouseViewMode": "drag",
+    "autorotateEnabled": true,
+    "fullscreenButton": false,
+    "viewControlButtons": false
+  }
+}

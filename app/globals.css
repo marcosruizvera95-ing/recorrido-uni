@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* Design tokens taken from the official site (uni.edu.py, Elementor global kit) */
+:root {
+  --uni-red: #ae152d;
+  --uni-orange: #cc6633;
+  --uni-orange-dark: #b5562a;
+  --uni-orange-light: #ffa97e;
+  --uni-ink: #111111;
+  --uni-text: #696969;
+  --background: #ffffff;
+  --foreground: var(--uni-text);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-uni-red: var(--uni-red);
+  --color-uni-orange: var(--uni-orange);
+  --color-uni-orange-dark: var(--uni-orange-dark);
+  --color-uni-orange-light: var(--uni-orange-light);
+  --color-uni-ink: var(--uni-ink);
+  --color-uni-text: var(--uni-text);
+  --font-sans: var(--font-roboto);
+  --font-heading: var(--font-poppins);
+}
+
+@layer base {
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-roboto), Arial, Helvetica, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-poppins), sans-serif;
+    color: var(--uni-ink);
+  }
+}
+
+/* Faint diagonal lines used as section background on the official site */
+.uni-lines {
+  background-image: url("data:image/svg+xml,%3Csvg width='900' height='600' viewBox='0 0 900 600' xmlns='http://www.w3.org/2000/svg'%3E%3Cg stroke='%23e5e5e5' stroke-width='1' fill='none'%3E%3Cpath d='M-50 520 L620 280 L900 360'/%3E%3Cpath d='M80 120 L320 200 L280 600'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 900px 600px;
+}
+
+.uni-lines-light {
+  background-image: url("data:image/svg+xml,%3Csvg width='700' height='300' viewBox='0 0 700 300' xmlns='http://www.w3.org/2000/svg'%3E%3Cg stroke='%23ffffff' stroke-opacity='.18' stroke-width='1' fill='none'%3E%3Cpath d='M-40 40 L300 -20 L240 320'/%3E%3Cpath d='M420 320 L520 -20 L760 140'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 700px 300px;
+}

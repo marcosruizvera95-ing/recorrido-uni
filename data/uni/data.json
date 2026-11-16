@@ -1,0 +1,1311 @@
+{
+  "scenes": [
+    {
+      "id": "0-1uni-entrada",
+      "name": "Entrada · Portón principal",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 1.45826337508469,
+        "pitch": -0.16906568427061508,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.121356993575235,
+          "pitch": 0.447288905325113,
+          "rotation": 0,
+          "target": "1-2uni-entrada-2"
+        },
+        {
+          "yaw": 0.012623897263846828,
+          "pitch": 0.07077616304520085,
+          "rotation": 1.5707963267948966,
+          "target": "14-10estacionamiento-1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-2uni-entrada-2",
+      "name": "Entrada · Explanada",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 2.1952057280549395,
+        "pitch": -0.1505046303585864,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.3999041972271886,
+          "pitch": 0.08800470210888278,
+          "rotation": 0,
+          "target": "3-4hall-mural"
+        },
+        {
+          "yaw": 3.105780726736814,
+          "pitch": 0.1280026252660207,
+          "rotation": 0,
+          "target": "2-4facea-mural"
+        },
+        {
+          "yaw": -1.6530189532126016,
+          "pitch": 0.25451471361072286,
+          "rotation": 0,
+          "target": "0-1uni-entrada"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-4facea-mural",
+      "name": "FaCEA · Mural",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -0.8477313509686759,
+        "pitch": -0.13264432049136943,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.11816770252066533,
+          "pitch": 0.07587159873163962,
+          "rotation": 0,
+          "target": "12-9posgrado-entrada"
+        },
+        {
+          "yaw": 2.3032193730381385,
+          "pitch": 0.3015294814183598,
+          "rotation": 0,
+          "target": "1-2uni-entrada-2"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -1.6882352020751021,
+          "pitch": 0.008429110141694451,
+          "title": "Mural",
+          "text": "Descripcion",
+          "addon": "<a href='https://www.facea.edu.uy/' target='_blank'>Link</a>"
+        }
+      ]
+    },
+    {
+      "id": "3-4hall-mural",
+      "name": "Hall central · Mural",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 3.071402960742134,
+        "pitch": -0.008670996691371613,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.235945900507094,
+          "pitch": 0.11635256517478432,
+          "rotation": 0,
+          "target": "5-5uni-patio"
+        },
+        {
+          "yaw": -1.0597091425284049,
+          "pitch": 0.2053526213572674,
+          "rotation": 0,
+          "target": "1-2uni-entrada-2"
+        },
+        {
+          "yaw": 1.3179655985917602,
+          "pitch": 0.07423687757634312,
+          "rotation": 4.71238898038469,
+          "target": "14-10estacionamiento-1"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -2.845084871105474,
+          "pitch": -0.3119816670726383,
+          "title": "Mural",
+          "text": "Descripcion"
+        }
+      ]
+    },
+    {
+      "id": "4-5posgrado-frente",
+      "name": "Posgrado · Frente",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 1.554763777680364,
+        "pitch": 0.08984978439252878,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.5971497318377432,
+          "pitch": 0.17053944591688008,
+          "rotation": 0,
+          "target": "15-10posgrado-dentro"
+        },
+        {
+          "yaw": -2.3848617951590505,
+          "pitch": 0.07512657390480726,
+          "rotation": 4.71238898038469,
+          "target": "18-11estacionamiento-2-posgrado"
+        },
+        {
+          "yaw": -0.6768075374619951,
+          "pitch": 0.20968203589325007,
+          "rotation": 0,
+          "target": "12-9posgrado-entrada"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-5uni-patio",
+      "name": "Campus · Patio central",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -2.055231246311468,
+        "pitch": -0.04845425258028868,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.1144064414458743,
+          "pitch": 0.10165731436531544,
+          "rotation": 5.497787143782138,
+          "target": "3-4hall-mural"
+        },
+        {
+          "yaw": -1.5757328413755545,
+          "pitch": 0.0835503099378272,
+          "rotation": 0,
+          "target": "6-6sum"
+        },
+        {
+          "yaw": -1.895720922479656,
+          "pitch": 0.10012326731918364,
+          "rotation": 11.780972450961727,
+          "target": "8-7sum-afuera"
+        },
+        {
+          "yaw": -1.0930577309670433,
+          "pitch": 0.09681016713384061,
+          "rotation": 0,
+          "target": "7-7cantina"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-6sum",
+      "name": "SUM · Interior",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -2.9821051587911303,
+        "pitch": 0.021597378122862665,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.7971867803315522,
+          "pitch": 0.008145291632748908,
+          "rotation": 4.71238898038469,
+          "target": "5-5uni-patio"
+        },
+        {
+          "yaw": 2.3917241216499256,
+          "pitch": 0.17476832895514605,
+          "rotation": 0,
+          "target": "8-7sum-afuera"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "7-7cantina",
+      "name": "Campus · Cantina",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.1232408348636156,
+          "pitch": 0.06682434791493286,
+          "rotation": 0,
+          "target": "9-8comedor"
+        },
+        {
+          "yaw": -2.7561286540832057,
+          "pitch": 0.0814676236958789,
+          "rotation": 1.5707963267948966,
+          "target": "26-facea-entrada"
+        },
+        {
+          "yaw": -0.10957801312577509,
+          "pitch": 0.3767820489323057,
+          "rotation": 0,
+          "target": "5-5uni-patio"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "8-7sum-afuera",
+      "name": "SUM · Exterior",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -1.5723987460155762,
+        "pitch": 0.07605390350762598,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.3457469174851795,
+          "pitch": 0.007201847569472619,
+          "rotation": 0,
+          "target": "10-8inge-laboratorios"
+        },
+        {
+          "yaw": -0.8273018254528957,
+          "pitch": -0.0774653132224099,
+          "rotation": 10.995574287564278,
+          "target": "6-6sum"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-8comedor",
+      "name": "Campus · Comedor",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 2.675082104950147,
+        "pitch": 0.15230331097588667,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.8121236468053095,
+          "pitch": 0.32462220054211777,
+          "rotation": 0,
+          "target": "7-7cantina"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "10-8inge-laboratorios",
+      "name": "Ingeniería · Laboratorios",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -1.1103087101068105,
+        "pitch": 0.07040482615146004,
+        "fov": 1.1107331851003306
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.9058024441694457,
+          "pitch": 0.18512841238926114,
+          "rotation": 0,
+          "target": "8-7sum-afuera"
+        },
+        {
+          "yaw": 2.4927667068058508,
+          "pitch": 0.35830407135983755,
+          "rotation": 0,
+          "target": "11-9huma-patio"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -1.8221090269163902,
+          "pitch": -0.2414886361262134,
+          "title": "Laboratorios",
+          "text": "Descripcion con link"
+        }
+      ]
+    },
+    {
+      "id": "11-9huma-patio",
+      "name": "Humanidades · Patio",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 0.24518002198239053,
+        "pitch": -0.0003266577322165176,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.6376988904861207,
+          "pitch": 0.24005939475083338,
+          "rotation": 0,
+          "target": "14-10estacionamiento-1"
+        },
+        {
+          "yaw": -3.0185443200158524,
+          "pitch": 0.11376639824825219,
+          "rotation": 6.283185307179586,
+          "target": "10-8inge-laboratorios"
+        },
+        {
+          "yaw": 0.6488365640680556,
+          "pitch": 0.08347934541033908,
+          "rotation": 0,
+          "target": "13-10cyt-huma"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "12-9posgrado-entrada",
+      "name": "Posgrado · Entrada",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -0.07122413937760186,
+        "pitch": -0.09010874538170377,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.6950782296756444,
+          "pitch": 0.025725897699231837,
+          "rotation": 10.995574287564278,
+          "target": "4-5posgrado-frente"
+        },
+        {
+          "yaw": -0.7861571050122862,
+          "pitch": 0.10643785620760404,
+          "rotation": 0,
+          "target": "15-10posgrado-dentro"
+        },
+        {
+          "yaw": -2.237038155465955,
+          "pitch": 0.1920574169889484,
+          "rotation": 0,
+          "target": "26-facea-entrada"
+        },
+        {
+          "yaw": 1.4707291025856062,
+          "pitch": 0.08895004417876962,
+          "rotation": 1.5707963267948966,
+          "target": "2-4facea-mural"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "13-10cyt-huma",
+      "name": "CyT · Conexión con Humanidades",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -0.19234240736263786,
+        "pitch": -0.06758155903628094,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.04026198311474438,
+          "pitch": 0.4623325194330956,
+          "rotation": 0,
+          "target": "16-11cyt-planta-baja"
+        },
+        {
+          "yaw": -3.1041686423295154,
+          "pitch": 0.07912308659578748,
+          "rotation": 0,
+          "target": "13-10cyt-huma"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "14-10estacionamiento-1",
+      "name": "Estacionamiento 1",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -1.405348204687133,
+        "pitch": -0.03538754406604738,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.6354797810912274,
+          "pitch": 0.08492774442100881,
+          "rotation": 0,
+          "target": "11-9huma-patio"
+        },
+        {
+          "yaw": -1.908139199538942,
+          "pitch": 0.19445326582869882,
+          "rotation": 0,
+          "target": "17-11derecho-afuera"
+        },
+        {
+          "yaw": 2.1681667220939866,
+          "pitch": 0.17025002925698018,
+          "rotation": 4.71238898038469,
+          "target": "0-1uni-entrada"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "15-10posgrado-dentro",
+      "name": "Posgrado · Hall interior",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 1.282389502133796,
+        "pitch": 0.21497233809191663,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.5064796590357536,
+          "pitch": 0.3114955327643809,
+          "rotation": 0,
+          "target": "25-edificio-facea-frente"
+        },
+        {
+          "yaw": 3.1148824209783097,
+          "pitch": 0.2645596831461354,
+          "rotation": 0.7853981633974483,
+          "target": "18-11estacionamiento-2-posgrado"
+        },
+        {
+          "yaw": -1.3703079535539864,
+          "pitch": 0.26613064977798473,
+          "rotation": 0,
+          "target": "4-5posgrado-frente"
+        },
+        {
+          "yaw": 0.29789921109500384,
+          "pitch": 0.27901790217741507,
+          "rotation": 5.497787143782138,
+          "target": "4-5posgrado-frente"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "16-11cyt-planta-baja",
+      "name": "CyT · Planta baja",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.8423617751366397,
+          "pitch": 0.16731908694105613,
+          "rotation": 0,
+          "target": "14-10estacionamiento-1"
+        },
+        {
+          "yaw": -2.0888672417372938,
+          "pitch": 0.08552831385391357,
+          "rotation": 7.0685834705770345,
+          "target": "13-10cyt-huma"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "17-11derecho-afuera",
+      "name": "Derecho · Exterior",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -2.2979430765669733,
+        "pitch": -0.033543475223478225,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.2181407345595208,
+          "pitch": 0.1584616458177912,
+          "rotation": 0,
+          "target": "14-10estacionamiento-1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "18-11estacionamiento-2-posgrado",
+      "name": "Estacionamiento 2 · Lado Posgrado",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 2.1983885225756596,
+        "pitch": -0.01398429041179483,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.296243521711057,
+          "pitch": 0.20789387844710916,
+          "rotation": 5.497787143782138,
+          "target": "19-12estacionamiento-2"
+        },
+        {
+          "yaw": -1.3237017810530727,
+          "pitch": 0.14004882691131826,
+          "rotation": 0,
+          "target": "15-10posgrado-dentro"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "19-12estacionamiento-2",
+      "name": "Estacionamiento 2 · Centro",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -1.1738627994948665,
+        "pitch": 0.03997937383347683,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.19333519846195202,
+          "pitch": 0.14174651081130207,
+          "rotation": 0,
+          "target": "18-11estacionamiento-2-posgrado"
+        },
+        {
+          "yaw": -2.0483575716746163,
+          "pitch": 0.04548902088870932,
+          "rotation": 0,
+          "target": "20-13estacionamiento-2-entrada"
+        },
+        {
+          "yaw": 1.6656167187835065,
+          "pitch": 0.13493241708626513,
+          "rotation": 0.7853981633974483,
+          "target": "24-cancha-futbol"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "20-13estacionamiento-2-entrada",
+      "name": "Estacionamiento 2 · Entrada",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 2.4753551823475037,
+        "pitch": -0.01798696736331351,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.910520486682538,
+          "pitch": 0.288289370286261,
+          "rotation": 0,
+          "target": "19-12estacionamiento-2"
+        },
+        {
+          "yaw": 1.7805057753898499,
+          "pitch": 0.20634363816240153,
+          "rotation": 0,
+          "target": "21-14medicina-frente"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "21-14medicina-frente",
+      "name": "Medicina · Frente",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -1.9444216228073845,
+        "pitch": -0.281309071252938,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.608027239554932,
+          "pitch": 0.17448389744002668,
+          "rotation": 0,
+          "target": "20-13estacionamiento-2-entrada"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "22-aula-3-posgrado",
+      "name": "Posgrado · Aula 3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "23-aula-inge",
+      "name": "Ingeniería · Aula",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "24-cancha-futbol",
+      "name": "Campus · Cancha de fútbol",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -1.5198979578326188,
+        "pitch": -0.060072496921163676,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.1217976332380797,
+          "pitch": 0.43619046648009174,
+          "rotation": 5.497787143782138,
+          "target": "19-12estacionamiento-2"
+        },
+        {
+          "yaw": 2.5782163765432955,
+          "pitch": 0.43883495569296294,
+          "rotation": 7.0685834705770345,
+          "target": "26-facea-entrada"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "25-edificio-facea-frente",
+      "name": "FaCEA · Frente del edificio",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.11283048560937914,
+          "pitch": 0.13298849981525684,
+          "rotation": 0,
+          "target": "27-incuni"
+        },
+        {
+          "yaw": 1.2447741246630883,
+          "pitch": 0.04909039500225809,
+          "rotation": 0,
+          "target": "19-12estacionamiento-2"
+        },
+        {
+          "yaw": -0.80660768741817,
+          "pitch": 0.13372775423589367,
+          "rotation": 0,
+          "target": "26-facea-entrada"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "26-facea-entrada",
+      "name": "FaCEA · Entrada",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 2.446893948554653,
+        "pitch": 0.007485322667891481,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.7120182266648225,
+          "pitch": 0.17590657846023205,
+          "rotation": 11.780972450961727,
+          "target": "12-9posgrado-entrada"
+        },
+        {
+          "yaw": 2.2368877868290333,
+          "pitch": 0.08328124793219693,
+          "rotation": 5.497787143782138,
+          "target": "24-cancha-futbol"
+        },
+        {
+          "yaw": 2.4496468068667614,
+          "pitch": 0.08845907027391497,
+          "rotation": 13.351768777756625,
+          "target": "25-edificio-facea-frente"
+        },
+        {
+          "yaw": 0.1778419802555966,
+          "pitch": 0.2244806880727097,
+          "rotation": 0.7853981633974483,
+          "target": "7-7cantina"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "27-incuni",
+      "name": "INCUNI",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.6687883241720298,
+          "pitch": 0.19569653104714746,
+          "rotation": 5.497787143782138,
+          "target": "25-edificio-facea-frente"
+        }
+      ],
+      "infoHotspots": []
+    }
+  ],
+  "name": "Project Title",
+  "settings": {
+    "mouseViewMode": "drag",
+    "autorotateEnabled": true,
+    "fullscreenButton": true,
+    "viewControlButtons": true
+  }
+}

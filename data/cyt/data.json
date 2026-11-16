@@ -1,0 +1,1192 @@
+{
+  "scenes": [
+    {
+      "id": "17-planta-baja-3",
+      "name": "Planta baja · Entrada",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 0.8192361795075378,
+        "pitch": 0.09761780749682636,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.8957640728619296,
+          "pitch": 0.12838287134164972,
+          "rotation": 0,
+          "target": "10-laboratorio-micro_biologia-1"
+        },
+        {
+          "yaw": 1.4060274440068259,
+          "pitch": 0.1849813166565628,
+          "rotation": 0,
+          "target": "8-laboratorio-biologia-molecular-1"
+        },
+        {
+          "yaw": 0.7058577716205168,
+          "pitch": 0.29322356629193713,
+          "rotation": 0,
+          "target": "18-planta-baja-4"
+        },
+        {
+          "yaw": -2.488558439884379,
+          "pitch": 0.5011295673919349,
+          "rotation": 0,
+          "target": "12-planta-baja-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "0-laboratorio-recepcion",
+      "name": "Laboratorios · Recepción",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 1.1918670303081065,
+        "pitch": 0.21192328702434793,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.5472835469310313,
+          "pitch": 0.3167848586082904,
+          "rotation": 0,
+          "target": "19-primer-piso-1-"
+        },
+        {
+          "yaw": -0.454652964154441,
+          "pitch": 0.30088951363477356,
+          "rotation": 0,
+          "target": "4-laboratorio-cromatologia"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-laboratorios-pasillo",
+      "name": "Laboratorios · Pasillo",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 2.901012564272458,
+        "pitch": 0.16531054906778664,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.536469500504772,
+          "pitch": 0.2692016710376617,
+          "rotation": 4.71238898038469,
+          "target": "2-laboratorio-microbiologia"
+        },
+        {
+          "yaw": 2.895068264545383,
+          "pitch": 0.26850813666954565,
+          "rotation": 1.5707963267948966,
+          "target": "3-laboratorio-fisico-quimica"
+        },
+        {
+          "yaw": 0.36154456659446055,
+          "pitch": 0.284099021487231,
+          "rotation": 1.5707963267948966,
+          "target": "5-laboratorio-alta-temperatura"
+        },
+        {
+          "yaw": -0.2014160727093106,
+          "pitch": 0.28643093179631407,
+          "rotation": 1.5707963267948966,
+          "target": "0-laboratorio-recepcion"
+        },
+        {
+          "yaw": -0.5206875898894054,
+          "pitch": 0.2965575616861873,
+          "rotation": 4.71238898038469,
+          "target": "4-laboratorio-cromatologia"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-laboratorio-microbiologia",
+      "name": "Laboratorios · Microbiología",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 3.035816931544458,
+        "pitch": 0.2098109721386301,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.8236800267595576,
+          "pitch": 0.25100908803723065,
+          "rotation": 0,
+          "target": "1-laboratorios-pasillo"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-laboratorio-fisico-quimica",
+      "name": "Laboratorios · Fisicoquímica",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -0.1493931508188684,
+        "pitch": 0.21227633247817046,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.0520937038307228,
+          "pitch": 0.5425680675234759,
+          "rotation": 0,
+          "target": "1-laboratorios-pasillo"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-laboratorio-cromatologia",
+      "name": "Laboratorios · Cromatografía",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 2.657150723827856,
+        "pitch": 0.2750010921728965,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.1676607505849947,
+          "pitch": 0.5405576812320714,
+          "rotation": 1.5707963267948966,
+          "target": "1-laboratorios-pasillo"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-laboratorio-alta-temperatura",
+      "name": "Laboratorios · Alta temperatura",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 2.8016240424301966,
+        "pitch": 0.31674529780262617,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.7680593849001465,
+          "pitch": 0.28483217368926006,
+          "rotation": 0,
+          "target": "1-laboratorios-pasillo"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-laboratorio-ciencia-de-datos",
+      "name": "Laboratorios · Ciencia de datos",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -0.18227018289496044,
+        "pitch": 0.37597541197699513,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.03899626849346305,
+          "pitch": 0.24935635019817326,
+          "rotation": 0,
+          "target": "20-primer-piso-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "7-laboratorio-electronica",
+      "name": "Laboratorios · Electrónica",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -2.0244467550919065,
+        "pitch": 0.29587215315345183,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.401516417716582,
+          "pitch": 0.10065317332336221,
+          "rotation": 0,
+          "target": "20-primer-piso-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "8-laboratorio-biologia-molecular-1",
+      "name": "Laboratorios · Biología molecular 1",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 1.1736714271904365,
+        "pitch": 0.2526521432951849,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.5861325557999413,
+          "pitch": 0.3277568429963438,
+          "rotation": 0,
+          "target": "9-laboratorio-biologia-molecular-2"
+        },
+        {
+          "yaw": -2.138696320757159,
+          "pitch": 0.344688835739257,
+          "rotation": 0,
+          "target": "17-planta-baja-3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-laboratorio-biologia-molecular-2",
+      "name": "Laboratorios · Biología molecular 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -1.0248131428169778,
+        "pitch": 0.4824619457826991,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.608245530565913,
+          "pitch": -0.12122481079872927,
+          "rotation": 4.71238898038469,
+          "target": "8-laboratorio-biologia-molecular-1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "10-laboratorio-micro_biologia-1",
+      "name": "Laboratorios · Microbiología 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.9860344189060353,
+          "pitch": 0.4601269448035801,
+          "rotation": 0,
+          "target": "17-planta-baja-3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "11-planta-baja-1",
+      "name": "Planta baja · Galería",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -1.678151934242873,
+        "pitch": -0.025350916521523104,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.9199480613904552,
+          "pitch": 0.378011327770686,
+          "rotation": 0,
+          "target": "12-planta-baja-2"
+        },
+        {
+          "yaw": -2.51170674653755,
+          "pitch": 0.02964205453550761,
+          "rotation": 0,
+          "target": "19-primer-piso-1-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "12-planta-baja-2",
+      "name": "Planta baja · Galería al jardín",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.7119770185209262,
+          "pitch": 0.15625425749647093,
+          "rotation": 14.137166941154074,
+          "target": "14-laboratorio-quimica"
+        },
+        {
+          "yaw": 2.9012081503629483,
+          "pitch": 0.16772128522933905,
+          "rotation": 4.71238898038469,
+          "target": "13-laboratorio-informatica"
+        },
+        {
+          "yaw": -2.955861922881919,
+          "pitch": 0.31460407735544216,
+          "rotation": 0,
+          "target": "11-planta-baja-1"
+        },
+        {
+          "yaw": 0.28109376039218503,
+          "pitch": 0.37115769437899004,
+          "rotation": 0,
+          "target": "17-planta-baja-3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "13-laboratorio-informatica",
+      "name": "Laboratorios · Informática",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 1.1652794517714078,
+        "pitch": 0.24884142556572897,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 4.4239823173897452,
+          "pitch": 0.5363569902172518,
+          "rotation": 5.497787143782138,
+          "target": "12-planta-baja-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "14-laboratorio-quimica",
+      "name": "Laboratorios · Química 1",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 1.4239823173897452,
+        "pitch": 0.10390299346227572,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.5430647273244453,
+          "pitch": 0.25654468259368457,
+          "rotation": 0,
+          "target": "15-laboratorio-quimica-1"
+        },
+        {
+          "yaw": 0.4974815509221049,
+          "pitch": 0.5363569902172518,
+          "rotation": 5.497787143782138,
+          "target": "12-planta-baja-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "15-laboratorio-quimica-1",
+      "name": "Laboratorios · Química 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 2.2594522914172916,
+        "pitch": 0.23937353416676288,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.8868953341682726,
+          "pitch": 0.264346949909692,
+          "rotation": 4.71238898038469,
+          "target": "14-laboratorio-quimica"
+        },
+        {
+          "yaw": 2.9980521058430902,
+          "pitch": 0.3988732739360987,
+          "rotation": 0,
+          "target": "16-laboratorio-quimica-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "16-laboratorio-quimica-2",
+      "name": "Laboratorios · Química 3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -2.2839464557524405,
+        "pitch": 0.18809275708703055,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.0215856955179774,
+          "pitch": 0.2748711760243374,
+          "rotation": 0,
+          "target": "15-laboratorio-quimica-1"
+        },
+        {
+          "yaw": -1.4676222312768612,
+          "pitch": 0.216276650163298,
+          "rotation": 0,
+          "target": "12-planta-baja-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "17-planta-baja-3",
+      "name": "Planta baja · Entrada",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 0.8192361795075378,
+        "pitch": 0.09761780749682636,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.8957640728619296,
+          "pitch": 0.12838287134164972,
+          "rotation": 0,
+          "target": "10-laboratorio-micro_biologia-1"
+        },
+        {
+          "yaw": 1.4060274440068259,
+          "pitch": 0.1849813166565628,
+          "rotation": 0,
+          "target": "8-laboratorio-biologia-molecular-1"
+        },
+        {
+          "yaw": 0.7058577716205168,
+          "pitch": 0.29322356629193713,
+          "rotation": 0,
+          "target": "18-planta-baja-4"
+        },
+        {
+          "yaw": -2.488558439884379,
+          "pitch": 0.5011295673919349,
+          "rotation": 0,
+          "target": "12-planta-baja-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "18-planta-baja-4",
+      "name": "Planta baja · Pasillo",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 1.0603488249939446,
+        "pitch": 0.08711033296000714,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.49409164867116573,
+          "pitch": 0.1470424756948976,
+          "rotation": 0,
+          "target": "21-primer-piso-3"
+        },
+        {
+          "yaw": -2.5443292126744446,
+          "pitch": 0.3382463302040968,
+          "rotation": 0,
+          "target": "17-planta-baja-3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "19-primer-piso-1-",
+      "name": "Primer piso · Escalera",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -0.09772867800840146,
+        "pitch": 0.019189825405364402,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.1882070140736012,
+          "pitch": 0.3422704997439894,
+          "rotation": 9.42477796076938,
+          "target": "11-planta-baja-1"
+        },
+        {
+          "yaw": 0.8793927486831787,
+          "pitch": 0.07892410345324663,
+          "rotation": 0,
+          "target": "24-segundo-piso-1"
+        },
+        {
+          "yaw": -0.7403102979768477,
+          "pitch": 0.21999600467764857,
+          "rotation": 0,
+          "target": "0-laboratorio-recepcion"
+        },
+        {
+          "yaw": 2.5125033563852215,
+          "pitch": 0.2172883329951869,
+          "rotation": 0,
+          "target": "20-primer-piso-2"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -1.0132564508798225,
+          "pitch": -0.2972620760696323,
+          "title": "laboratorios",
+          "text": "horario fotos<div><br></div>"
+        }
+      ]
+    },
+    {
+      "id": "20-primer-piso-2",
+      "name": "Primer piso · Galería",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.0240032154335772,
+          "pitch": 0.028210377135843956,
+          "rotation": 0,
+          "target": "7-laboratorio-electronica"
+        },
+        {
+          "yaw": 2.247047583005868,
+          "pitch": 0.08824102118078869,
+          "rotation": 0,
+          "target": "6-laboratorio-ciencia-de-datos"
+        },
+        {
+          "yaw": 0.14505752043315567,
+          "pitch": 0.1841814505800965,
+          "rotation": 0,
+          "target": "21-primer-piso-3"
+        },
+        {
+          "yaw": -3.1079146239300446,
+          "pitch": 0.2099902391338695,
+          "rotation": 0,
+          "target": "19-primer-piso-1-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "21-primer-piso-3",
+      "name": "Primer piso · Pasillo",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -0.3330333085838788,
+        "pitch": 0.02750182996088668,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.4099219691765885,
+          "pitch": 0.22896565611086928,
+          "rotation": 0,
+          "target": "20-primer-piso-2"
+        },
+        {
+          "yaw": -0.8071676885082777,
+          "pitch": 0.15243017295368233,
+          "rotation": 0,
+          "target": "22-segundo-piso-3"
+        },
+        {
+          "yaw": -1.1425920283497764,
+          "pitch": 0.16577435929795215,
+          "rotation": 3.141592653589793,
+          "target": "18-planta-baja-4"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "22-segundo-piso-3",
+      "name": "Segundo piso · Galería",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 2.934548511971892,
+        "pitch": 0.16531170448616628,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.782722765195615,
+          "pitch": 0.3053262450478762,
+          "rotation": 0,
+          "target": "23-segundo-piso-2"
+        },
+        {
+          "yaw": -0.6097951162630153,
+          "pitch": 0.21521812468986035,
+          "rotation": 3.141592653589793,
+          "target": "21-primer-piso-3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "23-segundo-piso-2",
+      "name": "Segundo piso · Pasillo",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -0.8366335805706271,
+        "pitch": 0.12890556630992478,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.38585750600836,
+          "pitch": 0.2741242918770901,
+          "rotation": 0,
+          "target": "22-segundo-piso-3"
+        },
+        {
+          "yaw": -0.8477313958941117,
+          "pitch": 0.364278366424994,
+          "rotation": 0,
+          "target": "24-segundo-piso-1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "24-segundo-piso-1",
+      "name": "Segundo piso · Hall",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": -2.469207187371399,
+        "pitch": 0.2741949400071739,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.4659602318217448,
+          "pitch": 0.34416115271856285,
+          "rotation": 3.141592653589793,
+          "target": "19-primer-piso-1-"
+        },
+        {
+          "yaw": 0.40964883738656965,
+          "pitch": 0.24774987204511945,
+          "rotation": 0,
+          "target": "23-segundo-piso-2"
+        }
+      ],
+      "infoHotspots": []
+    }
+  ],
+  "name": "Project Title",
+  "settings": {
+    "mouseViewMode": "drag",
+    "autorotateEnabled": true,
+    "fullscreenButton": false,
+    "viewControlButtons": false
+  }
+}
